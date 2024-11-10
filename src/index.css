@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-brand{
+  padding-right: 4%;
+}
+.collapse.navbar-collapse{
+  justify-content:space-around;
+}
+.navbar-nav{
+  width: 100%;
+  justify-content: right;
+}
+.navbar-nav li{
+    margin-right: 5%;
+}
+.d-flex.search{
+  width: 30%;
+}
+.form-control.me-2{
+  border: rgb(14, 168, 228) solid 2px;
+}
+.navbar-brand{
+  font-weight: bold;
+}
+.navbar .navbar-brand{
+  font-size: 30px;
+}
+.collapse.navbar-collapse{
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar{
+  box-shadow:0px 3px 3px 3px rgb(221, 221, 221);
+}
+
+/* **********Header********** */
+.p-2.flex-fill.info{
+  margin-top: 5%;
+}
+.d-flex.header{
+  flex-wrap: wrap;
+  width: 100%;
+}
+.container-fluid.main-header{
+  background-color: rgb(212, 233, 241);
+}
+.p-2.flex-fill.info{
+  font-weight: bolder;
+}
+.p-2.flex-fill.info h1{
+  font-size: 45px;
+  font-weight: bold;
+}
+.p-2.flex-fill.info p{
+  padding-top: 5%;
+}
+.p-2.flex-fill.info span{
+  color: red;
+}
+.header-button{
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.img-fluid.img1{
+  padding: 5%;
+}
+
+/* *************Services******************** */
+.card.services{
+  background-color: rgb(248, 248, 248);
+  margin: 10px;
+  border-radius: 0;
+  border-color: white;
+}
+.row.services{
+  justify-content: space-around;
+  padding: 2%;
+}
+.card-body.services{
+  padding-bottom: 3%;
+}
+
+/* ********************trending Products****************** */
+.row.trending{
+  justify-content: space-between;
+}
+.row.trending h1{
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card.trendingProducts{
+    text-align: left;
+    margin: -0.2%;
+}
+.card.trendingProduct p{
+  margin: 0;
+}
+.card-text.price-button.d-flex{
+  justify-content: right;
+  margin-top: -10%;
+  padding-right: -10px;
+}
+.card-text.price-button.card-text.price-button{
+  margin-right: 13%;
+}
+
+.card.trendingProducts{
+  padding: 0px;
+}
+.card.trendingProducts img{
+  border-bottom: solid rgb(196, 196, 196) 1px;
+}
+.card-text.trending{
+  color: rgb(81, 81, 255);
+  font-size: 20px;
+}
+.icon.trending{
+  color: gold;
+}
+.card-title.trending{
+  font-size: 18px;
+}
+.category{
+  color: gray;
+}
+
+/* ************Banner************** */
+.card.mb-3{
+  background-color: rgb(215, 241, 249);
+}
+.card-body.banner{
+  padding: 18%;
+}
+.card-body.banner button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: bold;
+}
+
+/* *************Categories*************** */
+.row.categories{
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.card.categories{
+ margin: 39px;
+ border: none;
+ background-color: white;
+}
+.card.categories h5{
+  font-size: 22px;
+}
